@@ -6,27 +6,22 @@ eureka:
       defaultZone: http://localhost:8010/eureka/
 
 ---
-spring:
-  profiles: subject
+spring.config.activate.on-profile: subject
 words: I,You,He,She,It
   
 ---
-spring:
-  profiles: verb
+spring.config.activate.on-profile: verb
 words: ran,knew,had,saw,bought
 
 ---
-spring:
-  profiles: article
+spring.config.activate.on-profile: article
 words: a,the
 
 ---
-spring:
-  profiles: adjective
+spring.config.activate.on-profile: adjective
 words: reasonable,leaky,suspicious,ordinary,unlikely
 
 ---
-spring:
-  profiles: noun
+spring.config.activate.on-profile: noun
 words: boat,book,vote,seat,backpack,partition,groundhog
   
